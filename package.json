@@ -1,14 +1,19 @@
 {
   "name": "coy-pro",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "node --test",
+    "seed": "node scripts/seed.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "better-sqlite3": "^13.2.0",
+    "framer-motion": "^14.14.0",
     "next": "16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0"
