@@ -6,7 +6,7 @@ The one rule I kept in mind the whole time is Coy's core promise: nobody finds o
 
 ## Running it
 
-You need Node 18.18 or newer.
+You need Node 20.9+ or newer.
 
 ```bash
 npm install
